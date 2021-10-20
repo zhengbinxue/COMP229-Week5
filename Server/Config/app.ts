@@ -7,6 +7,7 @@ import logger from 'morgan';
 import mongoose from 'mongoose';
 
 import indexRouter from '../Routes/index';
+import clothingRouter from '../Routes/clothing'
 
 
 //App configuration
@@ -32,7 +33,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, '../../Client')));
 app.use(express.static(path.join(__dirname, '../../node_modules')));
 
+
+//routing happens now
 app.use('/', indexRouter);
+app.use('/clothing-list',clothingRouter); //defines a new area of our website called clothing-list
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

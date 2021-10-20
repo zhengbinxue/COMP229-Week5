@@ -1,8 +1,18 @@
 {
-    "name": "Slim-Fit Non-Stretch Cotton Shirt for Men",
-    "brand": "Old Navy",
-    "category": "Tops",
-    "colour": "BlackJack",
-    "size": "medium",
-    "price": "34.99"
+    "clothing": [{
+        "name": "Skinny Built-In Flex Ultimate Tech Chino Pants for Men",
+        "brand": "Old Navy",
+        "category": "Pants",
+        "colour": "In the Navy",
+        "size": "38W",
+        "price": "47.00"
+    },
+    {
+        "name": "Slim-Fit Non-Stretch Cotton Shirt for Men",
+        "brand": "Old Navy",
+        "category": "Tops",
+        "colour": "BlackJack",
+        "size": "medium",
+        "price": "34.99"
+    }]
 }
